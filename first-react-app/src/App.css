@@ -130,3 +130,117 @@
 .active {
   background-color: rgba(255, 0, 0, 0.691) !important;
 }
+
+/* Task 4 */
+
+.logo {
+  width: 100%;
+  height: 120px;
+  background-color: orange;
+  font-size: 100px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-container {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(255, 72, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.form-container p {
+  font-size: 20px;
+}
+.form-container select,
+.form-container input,
+.form-container button {
+  font-size: 20px;
+  padding: 10px 15px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+}
+
+.form-container button {
+  background-color: rgb(0, 81, 255);
+  cursor: pointer;
+}
+.PackingList {
+  width: 100%;
+  height: 250px;
+  background-color: burlywood;
+  padding: 50px;
+}
+.PackingList ul {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin: 0 0 70px 0;
+  overflow: scroll;
+}
+
+.liOfItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-right: 200px;
+}
+.liOfItem div {
+  color: aquamarine;
+  font-size: 20px;
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  gap: 2px;
+}
+.liOfItem div.check {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+
+.liOfItem input[type="checkbox"] {
+  cursor: pointer;
+}
+.liOfItem .icon {
+  font-size: 25px;
+  color: red;
+  cursor: pointer;
+}
+.PackingList .btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.PackingList .btns select,
+.PackingList .btns button {
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: antiquewhite;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(0, 225, 255);
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

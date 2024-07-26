@@ -2,6 +2,7 @@ import "./App.css";
 import Task1 from "./component/Task1";
 import Task2 from "./component/Task2";
 import Task3 from "./component/Task3";
+import Task4 from "./component/Task4";
 
 const reactQuestionsAndAnswer = [
   {
@@ -46,6 +47,11 @@ function App() {
       <Task2 />
 
       <Task3 arrQA={reactQuestionsAndAnswer} />
+
+      <h1 style={{ margin: "50px 0", color: "red", textAlign: "center" }}>
+        Task To Do App
+      </h1>
+      <Task4 />
     </>
   );
 }
